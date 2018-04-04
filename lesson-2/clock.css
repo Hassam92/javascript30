@@ -1,5 +1,5 @@
 html {
-    background: #018DED url("http: //unsplash.it/1500/1000?image=881&blur=50");
+    background: #018DED url("http://unsplash.it/1500/1000?image=881&blur=50");
     background-size: cover;
     font-family:'helvetica neue';
     text-align: center;
@@ -43,4 +43,12 @@ body {
     transform-origin: 100%;
     transition: 0.05s ease all;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand {
+    height: 10px;
+}
+
+.second-hand {
+    background-color: red;
 }
